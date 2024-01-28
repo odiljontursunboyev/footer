@@ -1,0 +1,38 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    height: 70px;
+    background-color: cadetblue;
+}
+
+main{
+    flex: 1;
+}
+
+
+.div_ul{
+    display: flex;
+    padding-left: 1050px;
+    padding-bottom: 50px;
+}
+
+.header_ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 30px;
+    color: white;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    background-color: blue;
+    align-items: center;
+    color: white;
+}
